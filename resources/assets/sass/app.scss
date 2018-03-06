@@ -1,0 +1,45 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.container {
+  padding: 15px;
+}
+
+.form-inline {
+  .input-group {
+    width: 100%;
+  }
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
+.list-group-item {
+  .form-check {
+    display: inline-block;
+    width: 90%;
+  }
+
+  .delete-btn {
+    display: inline-block;
+    position: absolute;
+  }
+}
